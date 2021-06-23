@@ -1,0 +1,252 @@
+/* 独孤九剑 */
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+/* 主页样式 */
+
+
+/* 登录注册 */
+.register{
+    width: 143px;
+    height: 40px;
+}
+
+.register li{
+    float: left;
+    padding: 0 5px;
+}
+
+.register a{
+    display: block;
+    color:#b0b0b0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    transition: color .2s;
+}
+
+.cl a:hover,.register a:hover{
+    color: #4a766e;
+}
+
+
+/* 大列表 */
+
+.header_nav{
+    width: 100%;
+    height:100px;
+}
+
+.nav_cont{
+    width: 1226px;
+    height: 100px;
+}
+
+.nav{
+    float: left;
+    width: 850px;
+    height: 100px;
+}
+
+.nav_ul{
+    width: 1020px;
+    height: 88px;
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+.search{
+    width: 296px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: -80px;
+    float: right;
+}
+
+.sea_inp{
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    padding: 0 10px;
+    float: left;
+    border-right: none;
+}
+
+.sea_inp2{
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    padding: 1px 6px;
+    float: right;
+    font-family: sky;
+    font-size: 24px;
+    text-align: center;
+    line-height: 46px;
+    font-weight: 700;
+    background: #fff;
+    float: left;
+    position: absolute;
+    top: 72px;
+}
+
+.nav_ul ul{
+    float: left;
+    width: 750px;
+    height: 88px;
+    margin-left: -30px;
+}
+
+.nav_ul li{
+    float: left;
+}
+
+.nav_ul a{
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 16px !important;
+    line-height: 88px;
+    margin:0 10px;
+    transition: color .2s;
+}
+
+
+
+.nav_ul a:hover{
+    color: #4a766e;
+}
+
+.nav_ul2{
+    display: none;
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    box-shadow: 0 3px 4px rgba(0,0,0,.18);
+    border-top: 1px solid #e0e0e0;
+    z-index: 99;
+    overflow: hidden;
+    background: #fff;
+}
+
+.nav_ul li:hover .nav_ul2{
+    display: block;
+}
+
+.a_ul{
+    width: 1226px;
+    height: 200px;
+    margin:0 auto;
+
+}
+
+.null2_li{
+    height: 88px;
+    padding-right: 15px;
+}
+
+.null_li{
+    width: 127px;
+    height: 88px;
+    padding-right: 15px;
+}
+
+.a2{
+    width: 180px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+.a2 span,.a2 p{
+    font-size: 12px;
+}
+.a2 p{
+    color: #4a766e;
+}
+
+.ul_a{
+    width: 188px;
+    height: 160px;
+    padding-top: 35px;
+}
+
+.a1{
+    width: 160px;
+    height: 110px;
+}
+
+.a_ul ul{
+    width: 1226px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+.a_ul li{
+    margin: 0 7px;
+    float: left;
+}
+
+.banner_li{
+    width: 234px;
+    height: 460px;
+    background: rgba(105,101,101,.6);
+    position: relative;
+    top: 88px;
+    left: -88px;
+    float: left;
+}
+
+.banner2_li{
+    display: none;
+    position: absolute;
+    top: 140px;
+    left: 180px;
+    width: 234px;
+    height: 460px;
+    font-size: 14px;
+    background:#fff;
+    border: 1px solid #4a766e;
+}
+
+
+.banner2_li li{
+    float: none;
+    text-align: center;
+}
+
+.banner2_li li:hover{
+    background: lightgreen;
+}
+
+.null2_li:hover .banner2_li{
+    display: block;
+}
+
+.banner_li li:hover {
+    background: #4a766e;
+}

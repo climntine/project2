@@ -1,0 +1,131 @@
+/*主页样式 */
+
+.footer{
+    width: 100%;
+    height: 330px;
+    float: left;
+}
+
+.footer_ul{
+    width: 1226px;
+    height: 25px;
+    padding: 27px 0;
+}
+
+.footer_ul li{
+    float: left;
+    width: 242px;
+    height: 25px;
+}
+
+.footer_ul a{
+    float: left;
+    width: 242px;
+    height: 25px;
+    font-family: sky;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+}
+
+.footer_ul em{
+    font-size: 24px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 56px;
+}
+
+.footer_ul span{
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 5px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.footer_ul2{
+    width: 1226px;
+    height: 172px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.f_ul{
+    width: 160px;
+    height: 172px;
+}
+
+.f_ul li{
+    margin-top: 10px;
+}
+
+.f_ul a{
+    display: block;
+    width: 160px;
+    height: 18px;
+    text-align: center;
+}
+
+.f_ul h3{
+    margin-bottom: 24px;
+}
+
+.footer a:hover{
+    color: #4a766e;
+}
+.lastbox{
+    width: 251px;
+    height: 111px;
+}
+
+.lastbox h3{
+    font-size: 22px;
+    color: #8e2323;
+}
+
+.lastbox p{
+    text-align: center;
+}
+
+.lastbox a{
+    display: block;
+    width: 118px;
+    height: 28px;
+    border: 1px solid  #4a766e;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.lastbox span{
+    font-size: 16px;
+    font-family: sky;
+}
+
+.lastbox em{
+    font-size: 20px;
+    font-family: sky;
+    margin-right: 5px;
+}
+
+.lastbox a:hover{
+    background: #8e2323;
+}
+
+.gr{
+    color: green;
+}
+
+.red{
+    color: #8e2323;
+}
+
+.lastbox em:hover{
+    color:  #4a766e;
+}
+
