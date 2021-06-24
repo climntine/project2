@@ -89,6 +89,18 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/SongInfo.vue"),
   },
+  {
+    path: "/ListInfo",
+    name: "ListInfo",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ListInfo.vue"),
+  },
+  {
+    path: "/AlbumInfo",
+    name: "AlbumInfo",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/AlbumInfo.vue"),
+  },
 ];
 
 const router = new VueRouter({

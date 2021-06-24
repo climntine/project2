@@ -38,15 +38,27 @@
       <hr color="#F2F2F2" width="83%" />
       <div class="head2">
         <ul>
-          <li><a href="#">首页</a></li>
-          <li><a href="#">歌手</a></li>
-          <li><a href="#">新碟</a></li>
-          <li><a href="#">排行榜</a></li>
-          <li><a href="#">分类歌单</a></li>
-          <li><a href="#">电台</a></li>
-          <li><a href="#">MV</a></li>
-          <li><a href="#">数字专辑</a></li>
-          <li><a href="#">票务</a></li>
+          <li>
+            <a href="/index">首页</a>
+          </li>
+          <li>
+            <a href="/list">歌手</a>
+          </li>
+          <li>
+            <a href="/album">新碟</a>
+          </li>
+          <li>
+            <a href="RankingList">排行榜</a>
+          </li>
+          <li>
+            <a href="/Classification">分类歌单</a>
+          </li>
+          <li>
+            <a href="/MV">MV</a>
+          </li>
+          <li>
+            <a href="/NumberAlbum">数字专辑</a>
+          </li>
         </ul>
       </div>
       <div class="banner">

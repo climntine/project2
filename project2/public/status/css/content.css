@@ -51,8 +51,11 @@ strong {
 
 .regbox{
     width: 600px;
+    background-color: #fff;
     height: 480px;
+    opacity: 0.9;
     margin-top: 120px;
+    
     padding-bottom: 10px;
   
 }
@@ -60,8 +63,8 @@ strong {
 .reg_title{
     width: 600px;
     height: 45px;
+    margin-left: 0 !important;
     padding-top: 75px;
-    color: #ffffff;
     
 }
 
@@ -73,6 +76,7 @@ strong {
 .reg_inp{
     width: 332px;
     height: 320px;
+    margin-left: 22% !important;
 }
 
 .r_f{
@@ -167,7 +171,7 @@ strong {
 .reg_p{
     width: 600px;
     height: 40px;
-    margin-top: 50px;
+    margin-left: 0 !important;
 }
 
 .reg_p p{
@@ -202,6 +206,7 @@ strong {
     background: #fff;
     margin-top: 120px;
     margin-right: 125px;
+    opacity: 0.9;
 }
 
 .r_f2{

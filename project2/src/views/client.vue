@@ -174,6 +174,10 @@ export default {};
   font-size: 67px;
   color: #fff;
 }
+.mod_banner_pc span {
+  font-size: 67px;
+  color: #fff;
+}
 .sea {
   width: 90%;
   margin-left: 9%;
@@ -358,9 +362,8 @@ export default {};
   font-size: 12px;
   color: #fff;
 }
-.copyrightzh a{
-    color: #fff;
-    text-decoration: none;
+.copyrightzh a {
+  color: #fff;
+  text-decoration: none;
 }
-
 </style>

@@ -85,10 +85,10 @@
               />
             </div>
             <div class="banner_b_1_c">
-              <span><a href="/SongInfo">[VIP]绿砖专属欧美佳曲欣赏</a></span>
+              <span><a href="/ListInfo">[VIP]绿砖专属欧美佳曲欣赏</a></span>
             </div>
             <div class="banner_b_1_b">
-              <span><a href="/SongInfo">播放量:&nbsp;&nbsp;201万</a></span>
+              <span><a href="/ListInfo">播放量:&nbsp;&nbsp;201万</a></span>
             </div>
           </div>
           <div class="banner_b_1 tu">
@@ -100,10 +100,10 @@
               />
             </div>
             <div class="banner_b_1_c">
-              <span><a href="/SongInfo">说唱：做自己的宝贝 去兴风作浪</a></span>
+              <span><a href="/ListInfo">说唱：做自己的宝贝 去兴风作浪</a></span>
             </div>
             <div class="banner_b_1_b">
-              <span><a href="/SongInfo">播放量:&nbsp;&nbsp;1200万</a></span>
+              <span><a href="/ListInfo">播放量:&nbsp;&nbsp;1200万</a></span>
             </div>
           </div>
           <div class="banner_b_1 tu">
@@ -115,10 +115,10 @@
               />
             </div>
             <div class="banner_b_1_c">
-              <span><a href="/SongInfo">[韩语节奏控]把耳朵叫醒</a></span>
+              <span><a href="/ListInfo">[韩语节奏控]把耳朵叫醒</a></span>
             </div>
             <div class="banner_b_1_b">
-              <span><a href="/SongInfo">播放量:&nbsp;&nbsp;90万</a></span>
+              <span><a href="/ListInfo">播放量:&nbsp;&nbsp;90万</a></span>
             </div>
           </div>
           <div class="banner_b_1 tu">
@@ -130,10 +130,10 @@
               />
             </div>
             <div class="banner_b_1_c">
-              <span><a href="/SongInfo">车载必备|节奏金曲</a></span>
+              <span><a href="/ListInfo">车载必备|节奏金曲</a></span>
             </div>
             <div class="banner_b_1_b">
-              <span><a href="/SongInfo">播放量:&nbsp;&nbsp;5万</a></span>
+              <span><a href="/ListInfo">播放量:&nbsp;&nbsp;5万</a></span>
             </div>
           </div>
           <div class="banner_b_1 tu">
@@ -145,14 +145,21 @@
               />
             </div>
             <div class="banner_b_1_c">
-              <span><a href="/SongInfo">睡眠轻音|声随凤舞|清欢入梦</a></span>
+              <span><a href="/ListInfo">睡眠轻音|声随凤舞|清欢入梦</a></span>
             </div>
             <div class="banner_b_1_b">
-              <span><a href="/SongInfo">播放量:&nbsp;&nbsp;10万</a></span>
+              <span><a href="/ListInfo">播放量:&nbsp;&nbsp;10万</a></span>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="extra">
+      <div class="logo">
+        <img src="/status/img/logo.png" alt="" />
+      </div>
+      <div class="extra_m">千万高品质曲库尽享</div>
+      <a href="" class="extra_b"><i class="iconfont">&#xe6e1;</i>客户端下载</a>
     </div>
   </div>
 </template>
@@ -177,6 +184,62 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2605510 */
+    src: url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.woff2?t=1623841002985") format("woff2"),
+        url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.woff?t=1623841002985") format("woff"),
+        url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.ttf?t=1623841002985") format("truetype");
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.extra {
+  width: 200px;
+  height: 170px;
+  position: fixed;
+  background-color: #fff;
+  float: left;
+  top: 220px;
+  right: 0px;
+  box-shadow: 0px 0px 7px #ccc;
+}
+.logo {
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.extra_m {
+  color: #aaa;
+  font-size: 14px;
+  width: 130px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.extra_b {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 30px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  background-color: #31c27c;
+}
 * {
   margin: 0px;
   padding: 0px;

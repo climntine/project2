@@ -692,7 +692,6 @@ a {
 .bannerb {
   width: 100%;
   height: 50px;
-  margin-top: -2px;
 }
 
 .bannerb ul li {

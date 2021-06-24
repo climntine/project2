@@ -16,7 +16,7 @@
                            
                                  <button @click="submit()" class="but fl">登录</button>
                         </div>                
-                        <p><a href="">立即注册</a></p>
+                        <p><a href="/zc">立即注册</a></p>
                         <div class="log_li fr">
                             <a href="" class="l1">&#xe629;</a>
                             <a href="" class="l2">&#xe797;</a>

@@ -1,20 +1,68 @@
 <template>
   <div>
     <div class="box">
-      <hr color="#F2F2F2" width="83%" />
-      <div class="head2">
-        <ul>
-          <li><a href="#">首页</a></li>
-          <li><a href="#">歌手</a></li>
-          <li><a href="#">新碟</a></li>
-          <li><a href="#">排行榜</a></li>
-          <li><a href="#">分类歌单</a></li>
-          <li><a href="#">电台</a></li>
-          <li><a href="#">MV</a></li>
-          <li><a href="#">数字专辑</a></li>
-          <li><a href="#">票务</a></li>
-        </ul>
-      </div>
+      <div class="nav">
+            <div class="head">
+                <div class="head_left"></div>
+                <div class="head_cen">
+                    <ul>
+                        <li><a href="/index">音乐馆</a></li>
+                        <li><a href="/list">我的音乐</a></li>
+                        <li><a href="/client">客户端</a></li>
+                        <li><a href="#">开放平台</a></li>
+                        <li><a href="#">VIP</a></li>
+                    </ul>
+                </div>
+                <div class="head_right">
+                    <div class="head_right_l">
+                        <input type="text" placeholder="搜索音乐 MV 歌单 用户" />
+                    </div>
+                    <div class="head_right_r"></div>
+                </div>
+                <a href="/PersonalCenter">
+                    <div class="touxiang"></div>
+                </a>
+                <div class="head_b1">
+                    <div class="head_b1_l">
+                        <input type="submit" value="开通VIP" />
+                    </div>
+                    <div class="head_b1_r"></div>
+                </div>
+                <div class="head_b2">
+                    <div class="head_b2_l">
+                        <input type="submit" value="充值" />
+                        <div style="clear: left"></div>
+                    </div>
+                    <div class="head_b2_r"></div>
+                </div>
+            </div>
+            <hr color="#F2F2F2" width="83%" />
+            <div class="head2">
+                <ul>
+                    <li>
+                        <a href="/index">首页</a>
+                    </li>
+                    <li>
+                        <a href="/list">歌手</a>
+                    </li>
+                    <li>
+                        <a href="/album">新碟</a>
+                    </li>
+                    <li>
+                        <a href="RankingList">排行榜</a>
+                    </li>
+                    <li>
+                        <a href="/Classification">分类歌单</a>
+                    </li>
+                    <li>
+                        <a href="/MV">MV</a>
+                    </li>
+                    <li>
+                        <a href="/NumberAlbum">数字专辑</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
       <div class="zhanshi">
         <div class="zhanshi_t">
           <ul>
@@ -468,6 +516,13 @@
         </div>
       </div>
     </div>
+        <div class="extra">
+      <div class="logo">
+        <img src="/status/img/logo.png" alt="" />
+      </div>
+      <div class="extra_m">千万高品质曲库尽享</div>
+      <a href="" class="extra_b"><i class="iconfont">&#xe6e1;</i>客户端下载</a>
+    </div>
   </div>
 </template>
 
@@ -476,6 +531,264 @@ export default {};
 </script>
 
 <style scoped>
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2605510 */
+    src: url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.woff2?t=1623841002985") format("woff2"),
+        url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.woff?t=1623841002985") format("woff"),
+        url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.ttf?t=1623841002985") format("truetype");
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.extra {
+  width: 200px;
+  height: 170px;
+  position: fixed;
+  background-color: #fff;
+  float: left;
+  top: 220px;
+  right: 0px;
+  box-shadow: 0px 0px 7px #ccc;
+}
+.logo {
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.extra_m {
+  color: #aaa;
+  font-size: 14px;
+  width: 130px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.extra_b {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 30px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  background-color: #31c27c;
+}
+.nav {
+    width: 100%;
+    height: 150px;
+}
+
+.song_main_head div {
+    float: left;
+    padding: 14px;
+    font-size: 14px;
+    background-color: rgb(253, 247, 247);
+}
+
+.head_main_name {
+    width: 520px;
+    margin-left: 88px;
+    text-align: left;
+}
+
+.song_head div {
+    float: left;
+    padding: 14px;
+    color: #aaa;
+    background-color: rgb(253, 247, 247);
+}
+
+.head_name {
+    width: 35.3%;
+    margin-left: 6%;
+    text-align: left;
+}
+
+.head_singer {
+    width: 16.9%;
+}
+
+.head_album {
+    width: 17.7%;
+}
+
+.head_time {
+    width: 10.6%;
+}
+
+.head {
+    width: 100%;
+    height: 90px;
+}
+
+.head_left {
+    width: 216px;
+    height: 90px;
+
+    float: left;
+    margin-left: 180px;
+    background: url("../../public/status/img/logo.png") 2px 21px no-repeat;
+}
+
+.head_cen {
+    width: 420px;
+    height: 90px;
+
+    float: left;
+    margin-left: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.head_cen ul li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head_cen ul li a {
+    color: #000;
+    line-height: 90px;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.head_cen ul li:hover {
+    background-color: #31c27c;
+}
+
+.head_cen ul li a:hover {
+    background-color: #31c27c;
+}
+
+.head_right {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.head_right_l {
+    width: 180px;
+    height: 40px;
+    float: left;
+}
+
+.head_right_l input {
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    border: 0px;
+    font-size: 17px;
+}
+
+.head_right_r {
+    width: 30px;
+    height: 40px;
+
+    float: right;
+    background: url("../../public/status/img/1.png") 1px -53px no-repeat;
+}
+
+.touxiang {
+    width: 40px;
+    height: 40px;
+
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    background: url("../../public/status/img/touxiang.jpg") 0px 0px no-repeat;
+    border-radius: 50%;
+}
+
+.head_b1 {
+    width: 110px;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.head_b1_l {
+    width: 80px;
+    height: 40px;
+
+    float: left;
+}
+
+.head_b1_l input {
+    width: 80px;
+    height: 40px;
+    background-color: #31c27c;
+    color: #eee;
+    border: 0px;
+}
+
+.head_b1_r {
+    width: 25px;
+    height: 40px;
+    float: right;
+    background: url("../../public/status/img/mytag.png") -449px -79px no-repeat;
+}
+
+.head_b2 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.head_b2_l {
+    width: 70px;
+    height: 40px;
+
+    float: left;
+}
+
+.head_b2_l input {
+    width: 70px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 0px;
+}
+
+.head_b2_r {
+    width: 20px;
+    height: 40px;
+    float: right;
+    background: url("../../public/status/img/mytag.png") -454px -79px no-repeat;
+}
+
+hr {
+    margin-left: 180px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -675,7 +988,8 @@ hr {
 .footer_t1_c1_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/fbf292c98217d04e67f063be771715c.png") 0px 0px no-repeat;
+  background: url("../../public/status/img/fbf292c98217d04e67f063be771715c.png")
+    0px 0px no-repeat;
 }
 
 .footer_t1_c1_b {
@@ -699,7 +1013,8 @@ hr {
 .footer_t1_c2_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/843ceaaaee6ad6cfa1196e1057f5cb0.png") 0px -4px no-repeat;
+  background: url("../../public/status/img/843ceaaaee6ad6cfa1196e1057f5cb0.png")
+    0px -4px no-repeat;
 }
 
 .footer_t1_c2_b {
@@ -723,7 +1038,8 @@ hr {
 .footer_t1_c3_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/af1d37b603ebb634cf398999d6286f4.png") 5px -5px no-repeat;
+  background: url("../../public/status/img/af1d37b603ebb634cf398999d6286f4.png")
+    5px -5px no-repeat;
 }
 
 .footer_t1_c3_b {
@@ -747,7 +1063,8 @@ hr {
 .footer_t1_c4_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/2ebb857a9623b3438f96e9dffd1c17a.png") 0px -2px no-repeat;
+  background: url("../../public/status/img/2ebb857a9623b3438f96e9dffd1c17a.png")
+    0px -2px no-repeat;
 }
 
 .footer_t1_c4_b {
@@ -794,7 +1111,8 @@ hr {
 .footer_t2_c1_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/f1c49d2c12536eeb36e56958785ac10.png") -16px -4px no-repeat;
+  background: url("../../public/status/img/f1c49d2c12536eeb36e56958785ac10.png") -16px -4px
+    no-repeat;
 }
 
 .footer_t2_c1_b {
@@ -818,7 +1136,8 @@ hr {
 .footer_t2_c2_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/0390aa6c625952f119da529c487bc47.png") -4px -4px no-repeat;
+  background: url("../../public/status/img/0390aa6c625952f119da529c487bc47.png") -4px -4px
+    no-repeat;
 }
 
 .footer_t2_c2_b {
@@ -842,7 +1161,8 @@ hr {
 .footer_t2_c3_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/2bae16968c3f6ab945c1a7606b98363.png") -9px -4px no-repeat;
+  background: url("../../public/status/img/2bae16968c3f6ab945c1a7606b98363.png") -9px -4px
+    no-repeat;
 }
 
 .footer_t2_c3_b {
@@ -866,7 +1186,8 @@ hr {
 .footer_t2_c4_t {
   width: 100%;
   height: 60px;
-  background: url("../../public/status/img/bd63e209e2c96ba74e1c16e44b4661c.png") 0px 1px no-repeat;
+  background: url("../../public/status/img/bd63e209e2c96ba74e1c16e44b4661c.png")
+    0px 1px no-repeat;
 }
 
 .footer_t2_c4_b {

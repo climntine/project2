@@ -13,6 +13,7 @@
               <li><a href="#">VIP</a></li>
             </ul>
           </div>
+          
           <div class="head_right">
             <div class="head_right_l">
               <input type="text" placeholder="搜索音乐 MV 歌单 用户" />
@@ -99,7 +100,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -114,7 +115,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -129,7 +130,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -144,7 +145,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -159,7 +160,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -174,7 +175,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -189,7 +190,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -204,7 +205,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -219,7 +220,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -234,7 +235,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -249,7 +250,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>
@@ -264,7 +265,7 @@
             <div class="MV_t">
               <video
                 controls
-                src=""
+                src="/status/img/15781103918c7a380b72366688.mp4_last.mp4"
                 poster="/status/img/T015R640x360M0000039w1EF26QHB1.jpg"
               ></video>
             </div>

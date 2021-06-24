@@ -1,19 +1,67 @@
 <template>
   <div>
     <div class="box">
-      <hr color="#F2F2F2" width="83%" />
-      <div class="head2">
-        <ul>
-          <li><a href="#">首页</a></li>
-          <li><a href="#">歌手</a></li>
-          <li><a href="#">新碟</a></li>
-          <li><a href="#">排行榜</a></li>
-          <li><a href="#">分类歌单</a></li>
-          <li><a href="#">电台</a></li>
-          <li><a href="#">MV</a></li>
-          <li><a href="#">数字专辑</a></li>
-          <li><a href="#">票务</a></li>
-        </ul>
+      <div class="nav">
+        <div class="head">
+          <div class="head_left"></div>
+          <div class="head_cen">
+            <ul>
+              <li><a href="/index">音乐馆</a></li>
+              <li><a href="/list">我的音乐</a></li>
+              <li><a href="/client">客户端</a></li>
+              <li><a href="#">开放平台</a></li>
+              <li><a href="#">VIP</a></li>
+            </ul>
+          </div>
+          <div class="head_right">
+            <div class="head_right_l">
+              <input type="text" placeholder="搜索音乐 MV 歌单 用户" />
+            </div>
+            <div class="head_right_r"></div>
+          </div>
+          <a href="/PersonalCenter">
+            <div class="touxiang"></div>
+          </a>
+          <div class="head_b1">
+            <div class="head_b1_l">
+              <input type="submit" value="开通VIP" />
+            </div>
+            <div class="head_b1_r"></div>
+          </div>
+          <div class="head_b2">
+            <div class="head_b2_l">
+              <input type="submit" value="充值" />
+              <div style="clear: left"></div>
+            </div>
+            <div class="head_b2_r"></div>
+          </div>
+        </div>
+        <hr color="#F2F2F2" width="83%" />
+        <div class="head2">
+          <ul>
+            <li>
+              <a href="/index">首页</a>
+            </li>
+            <li>
+              <a href="/list">歌手</a>
+            </li>
+            <li>
+              <a href="/album">新碟</a>
+            </li>
+            <li>
+              <a href="RankingList">排行榜</a>
+            </li>
+            <li>
+              <a href="/Classification">分类歌单</a>
+            </li>
+            <li>
+              <a href="/MV">MV</a>
+            </li>
+            <li>
+              <a href="/NumberAlbum">数字专辑</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="zhanshi">
         <div class="zhanshi_t">
@@ -172,11 +220,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">入画江南</span><br />
-                <span style="color: #999; font-size: 14px">黄龄</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">入画江南</span><br />
+                  <span style="color: #999; font-size: 14px">黄龄</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -186,11 +236,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">斗地主</span><br />
-                <span style="color: #999; font-size: 14px">刘聪</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">斗地主</span><br />
+                  <span style="color: #999; font-size: 14px">刘聪</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -200,11 +252,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">意外</span><br />
-                <span style="color: #999; font-size: 14px">薛之谦</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">意外</span><br />
+                  <span style="color: #999; font-size: 14px">薛之谦</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -214,11 +268,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">江南</span><br />
-                <span style="color: #999; font-size: 14px">林俊杰</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">江南</span><br />
+                  <span style="color: #999; font-size: 14px">林俊杰</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -228,11 +284,14 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">第三种人</span><br />
-                <span style="color: #999; font-size: 14px">隔壁老樊</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">第三种人</span><br />
+                  <span style="color: #999; font-size: 14px">隔壁老樊</span
+                  ><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
           </div>
           <div class="zhanshi_c_hang" style="margin-top: 35px">
@@ -244,11 +303,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">设计</span><br />
-                <span style="color: #999; font-size: 14px">TT</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">设计</span><br />
+                  <span style="color: #999; font-size: 14px">TT</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -258,11 +319,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">破釜沉舟</span><br />
-                <span style="color: #999; font-size: 14px">PGONE</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">破釜沉舟</span><br />
+                  <span style="color: #999; font-size: 14px">PGONE</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -272,11 +335,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">独苗</span><br />
-                <span style="color: #999; font-size: 14px">新秀</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">独苗</span><br />
+                  <span style="color: #999; font-size: 14px">新秀</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -286,11 +351,14 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">一万次悲伤</span><br />
-                <span style="color: #999; font-size: 14px">逃跑计划</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">一万次悲伤</span><br />
+                  <span style="color: #999; font-size: 14px">逃跑计划</span
+                  ><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -300,11 +368,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">不朽</span><br />
-                <span style="color: #999; font-size: 14px">华晨宇</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">不朽</span><br />
+                  <span style="color: #999; font-size: 14px">华晨宇</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
           </div>
           <div class="zhanshi_c_hang" style="margin-top: 35px">
@@ -316,11 +386,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">反方向的钟</span><br />
-                <span style="color: #999; font-size: 14px">周杰伦</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">反方向的钟</span><br />
+                  <span style="color: #999; font-size: 14px">周杰伦</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -330,11 +402,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">二人赚</span><br />
-                <span style="color: #999; font-size: 14px">杨大丸</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">二人赚</span><br />
+                  <span style="color: #999; font-size: 14px">杨大丸</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -344,11 +418,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">我们俩</span><br />
-                <span style="color: #999; font-size: 14px">郭顶</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">我们俩</span><br />
+                  <span style="color: #999; font-size: 14px">郭顶</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -358,11 +434,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">我好想你</span><br />
-                <span style="color: #999; font-size: 14px">吴青峰</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">我好想你</span><br />
+                  <span style="color: #999; font-size: 14px">吴青峰</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -372,11 +450,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">突然好想你</span><br />
-                <span style="color: #999; font-size: 14px">五月天</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">突然好想你</span><br />
+                  <span style="color: #999; font-size: 14px">五月天</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
           </div>
           <div class="zhanshi_c_hang" style="margin-top: 35px">
@@ -388,11 +468,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">天堂</span><br />
-                <span style="color: #999; font-size: 14px">腾格尔</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">天堂</span><br />
+                  <span style="color: #999; font-size: 14px">腾格尔</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -402,11 +484,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">男孩</span><br />
-                <span style="color: #999; font-size: 14px">梁博</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">男孩</span><br />
+                  <span style="color: #999; font-size: 14px">梁博</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -416,11 +500,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">画</span><br />
-                <span style="color: #999; font-size: 14px">赵雷</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">画</span><br />
+                  <span style="color: #999; font-size: 14px">赵雷</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -430,11 +516,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">天下</span><br />
-                <span style="color: #999; font-size: 14px">张杰</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">天下</span><br />
+                  <span style="color: #999; font-size: 14px">张杰</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
             <div class="zhanshi_c_hang_1" style="margin-left: 22px">
               <div class="hang_1_tu">
@@ -444,11 +532,13 @@
                   height="100%"
                 />
               </div>
-              <div class="hang_1_zi">
-                <span style="font-size: 14px">病变</span><br />
-                <span style="color: #999; font-size: 14px">罗志豪</span><br />
-                <span style="color: #999; font-size: 14px">2021-01-02</span>
-              </div>
+              <a href="/ListInfo">
+                <div class="hang_1_zi">
+                  <span style="font-size: 14px">病变</span><br />
+                  <span style="color: #999; font-size: 14px">罗志豪</span><br />
+                  <span style="color: #999; font-size: 14px">2021-01-02</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -604,6 +694,13 @@
         </div>
       </div>
     </div>
+    <div class="extra">
+      <div class="logo">
+        <img src="/status/img/logo.png" alt="" />
+      </div>
+      <div class="extra_m">千万高品质曲库尽享</div>
+      <a href="" class="extra_b"><i class="iconfont">&#xe6e1;</i>客户端下载</a>
+    </div>
   </div>
 </template>
 
@@ -612,6 +709,267 @@ export default {};
 </script>
 
 <style scoped>
+@font-face {
+  font-family: "iconfont";
+  /* Project id 2605510 */
+  src: url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.woff2?t=1623841002985")
+      format("woff2"),
+    url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.woff?t=1623841002985")
+      format("woff"),
+    url("http://at.alicdn.com/t/font_2605510_nzhg4omnsh.ttf?t=1623841002985")
+      format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.extra {
+  width: 200px;
+  height: 170px;
+  position: fixed;
+  background-color: #fff;
+  float: left;
+  top: 220px;
+  right: 0px;
+  box-shadow: 0px 0px 7px #ccc;
+}
+.logo {
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.extra_m {
+  color: #aaa;
+  font-size: 14px;
+  width: 130px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.extra_b {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 30px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  background-color: #31c27c;
+}
+.nav {
+  width: 100%;
+  height: 150px;
+}
+
+.song_main_head div {
+  float: left;
+  padding: 14px;
+  font-size: 14px;
+  background-color: rgb(253, 247, 247);
+}
+
+.head_main_name {
+  width: 520px;
+  margin-left: 88px;
+  text-align: left;
+}
+
+.song_head div {
+  float: left;
+  padding: 14px;
+  color: #aaa;
+  background-color: rgb(253, 247, 247);
+}
+
+.head_name {
+  width: 35.3%;
+  margin-left: 6%;
+  text-align: left;
+}
+
+.head_singer {
+  width: 16.9%;
+}
+
+.head_album {
+  width: 17.7%;
+}
+
+.head_time {
+  width: 10.6%;
+}
+
+.head {
+  width: 100%;
+  height: 90px;
+}
+
+.head_left {
+  width: 216px;
+  height: 90px;
+
+  float: left;
+  margin-left: 180px;
+  background: url("../../public/status/img/logo.png") 2px 21px no-repeat;
+}
+
+.head_cen {
+  width: 420px;
+  height: 90px;
+
+  float: left;
+  margin-left: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.head_cen ul li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head_cen ul li a {
+  color: #000;
+  line-height: 90px;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.head_cen ul li:hover {
+  background-color: #31c27c;
+}
+
+.head_cen ul li a:hover {
+  background-color: #31c27c;
+}
+
+.head_right {
+  width: 220px;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  float: left;
+  margin-left: 40px;
+  margin-top: 25px;
+  border-radius: 3px;
+}
+
+.head_right_l {
+  width: 180px;
+  height: 40px;
+  float: left;
+}
+
+.head_right_l input {
+  height: 40px;
+  width: 180px;
+  line-height: 40px;
+  border: 0px;
+  font-size: 17px;
+}
+
+.head_right_r {
+  width: 30px;
+  height: 40px;
+
+  float: right;
+  background: url("../../public/status/img/1.png") 1px -53px no-repeat;
+}
+
+.touxiang {
+  width: 40px;
+  height: 40px;
+
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  background: url("../../public/status/img/touxiang.jpg") 0px 0px no-repeat;
+  border-radius: 50%;
+}
+
+.head_b1 {
+  width: 110px;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  border-radius: 3px;
+}
+
+.head_b1_l {
+  width: 80px;
+  height: 40px;
+
+  float: left;
+}
+
+.head_b1_l input {
+  width: 80px;
+  height: 40px;
+  background-color: #31c27c;
+  color: #eee;
+  border: 0px;
+}
+
+.head_b1_r {
+  width: 25px;
+  height: 40px;
+  float: right;
+  background: url("../../public/status/img/mytag.png") -449px -79px no-repeat;
+}
+
+.head_b2 {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  border-radius: 3px;
+}
+
+.head_b2_l {
+  width: 70px;
+  height: 40px;
+
+  float: left;
+}
+
+.head_b2_l input {
+  width: 70px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.head_b2_r {
+  width: 20px;
+  height: 40px;
+  float: right;
+  background: url("../../public/status/img/mytag.png") -454px -79px no-repeat;
+}
+
+hr {
+  margin-left: 180px;
+}
+
 body {
   margin: 0px;
   width: 100%;
@@ -786,7 +1144,6 @@ hr {
   height: 70px;
   margin-top: 20px;
 }
-
 .fenye {
   width: 350px;
   height: 50px;
