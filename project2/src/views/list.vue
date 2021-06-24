@@ -238,7 +238,7 @@
         >
           <ul>
             <li>
-              <a href="#">{{ v.sname }}</a>
+              <a href="javascript:void(0)" @click="info(v.id)">{{ v.sname }}</a>
             </li>
           </ul>
         </div>
@@ -411,7 +411,13 @@ export default {
   data() {
     return {
       list: [],
+      id:""
     };
+  },
+  methods: {
+    info(id) {
+      this.$router.push("/info/" + id);
+    },
   },
   created() {
     getSingerall().then((res) => {

@@ -657,19 +657,22 @@
 </template>
 
 <script>
-import { getSinger } from "../request/api.js";
+import { userinfo } from "../request/api.js";
 export default {
   name: "Singer",
   data() {
     return {
+      id: "",
       list: [],
     };
   },
   created() {
-    getSinger().then((res) => {
+    let id = this.$route.params.id;
+    // console.log(id);
+    this.id = id;
+    userinfo(this.id).then(res => {
       console.log(res);
-      this.list = res;
-      console.log(this.list);
+      // this.list = res;
     });
   },
 };
